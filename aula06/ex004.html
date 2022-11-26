@@ -4,9 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Java Script</title>
+    <style>
+        body{
+            font: normal 20pt arial;
+
+        }
+    </style>
 </head>
 <body>
-    
+
+    <script>
+        var nome = String(window.prompt ('Qual o seu nome ?'))
+        document.write(`Seu nome tem ${nome.length} letras, <strong>:${nome}</strong><br>`)
+        document.write(`Seu nome em maiusculo é ${nome.toUpperCase()}<br>`)
+        document.write(`Seu nome em minusculo é ${nome.toLowerCase()}`)
+    </script>
 </body>
 </html>
