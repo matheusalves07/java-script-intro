@@ -17,12 +17,30 @@
     </style>
 </head>
 <body>
+    <!--
+       Dom é um modelo de objetos para documentos, conjunto de objetos dentro do navegador que vai dar acesso aos componentes do web site  
+    -->
+    <!--
+        Arvore dom - importante
+    -->
+    <!--
+        Window = janela ( começa da raiz) -> 
+        location , document , history e outros...
+        html
+        head and body
+        meta -> title , para body tags html
+    -->
     <h1>Iniciando estudos com DOM</h1>   
     <p>aqui vai o resultado </p>
     <p>Aprendendo a usar <strong>DOM</strong> em Javascript</p>
-    <div>Clique em min</div>
+    <div id="msg">Clique em min</div>
     <script>
+        var corpo = window.document.body
+        var p1 = window.document.getElementsByTagName('p')[1]
+        var d = window.document.getElementById('msg')
+
         
+
         
     </script>
 </body>
