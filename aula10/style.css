@@ -9,3 +9,37 @@ div#area{
     line-height: 200px;
     text-align: center;
 }
+body{
+    background-color: aqua;
+    margin-left: 35%;
+    margin-top: 15%;
+}
+div{
+    width: 400px;
+    height: 20px;
+    background-color: aquamarine;
+    padding: 0px 0px 0px 3px;
+    text-align: center;
+    margin: 30px 0px 0px 0px;
+}
+
+h1{
+    color: rgb(75, 73, 73);
+    margin-bottom: 40px;
+    
+}
+h1:hover{
+    color: blueviolet;
+}
+
+input{
+    border-radius: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+
+}
+
+input>button{
+    background-color: aqua;
+
+}
