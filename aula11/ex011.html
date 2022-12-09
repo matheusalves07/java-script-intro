@@ -8,10 +8,37 @@
 </head>
 <body>
     <h1>Identificação de nacionalidade</h1>
-    <div></div>
+
+    <p> Qual o seu Pais? </p>
+
+    <input type="text" name="pais" id="pais">
+    <input type="button" value="Conferir Nacionalidade" onclick="clicar()">
+   
+
+    <div id="res">
+        
+    </div>
 
     <script>
-        
+        //alert('Olá Bem vindo ao Brasil vamos avaliar sua nacionalidade')
+
+        function clicar(){
+            var pais = window.document.querySelector('input#pais')
+            var res = window.document.querySelector('div#res')
+            var nac = String(pais.value)
+
+            res.innerHTML = `A sua nacionalidade atual é ${nac}<br>`
+
+            if( nac =='brasil') {
+                res.innerHTML = `Você é Brasileiro`
+            }else {
+                res.innerHTML = `Você é estrangeiro`
+            }
+            
+
+
+        }
+
     </script>
     
 </body>
