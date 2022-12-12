@@ -5,13 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nacionalidade</title>
+    <style>
+        input#nome{
+            margin-bottom: 10px;
+        }
+        input#pais{
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
 <body>
     <h1>Identificação de nacionalidade</h1>
 
     <p> Qual o seu Pais? </p>
-
-    <input type="text" name="pais" id="pais">
+    <input type="text" name="nome" id="nome" placeholder="Nome"><br>
+    <input type="text" name="pais" id="pais" placeholder="Pais"><br>
     <input type="button" value="Conferir Nacionalidade" onclick="clicar()">
    
 
@@ -24,13 +32,15 @@
 
         function clicar(){
             var pais = window.document.querySelector('input#pais')
+            var nome = window.document.querySelector('input#nome')
             var res = window.document.querySelector('div#res')
             var nac = String(pais.value)
+            var nome1 = String(nome.value)
 
             res.innerHTML = `A sua nacionalidade atual é ${nac}<br>`
 
             if( nac =='brasil') {
-                res.innerHTML = `Você é Brasileiro`
+                res.innerHTML = `Você ${nome1} é Brasileiro`
             }else {
                 res.innerHTML = `Você é estrangeiro`
             }
