@@ -20,11 +20,26 @@ div{
 
 }
 ul >li {
-    color: rgb(70 142, 236);
-    background-color: aquamarine;
+    color: #ffff;
+    background-color: rgb(70 142, 236);
     width: 62px;
-    
+    padding: 4px 8px 4px 8px;
+    border-radius: 2px;
+    margin: 4px;
+    box-shadow: 1px 2px 6px rgba(28, 179, 206, 0.374);    
 }
+
+
+ul >li:hover {
+    color: rgb(70 142, 236);
+    background-color: #ffff;
+    width: 62px;
+    padding: 4px 8px 4px 8px;
+    border-radius: 2px;
+    margin: 4px;
+    box-shadow: 1px 2px 6px rgba(28, 179, 206, 0.374); 
+}
+
 
 
 footer{
