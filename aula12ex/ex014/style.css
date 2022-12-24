@@ -19,6 +19,12 @@ section{
 div{
 
 }
+ul >li {
+    color: rgb(70 142, 236);
+    background-color: aquamarine;
+    width: 62px;
+    
+}
 
 
 footer{
