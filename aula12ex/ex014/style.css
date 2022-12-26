@@ -17,12 +17,14 @@ section{
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.181);
 }
 div{
+    text-align: center;
+    padding: 8px;
 
 }
 ul >li {
     color: #ffff;
     background-color: rgb(70 142, 236);
-    width: 62px;
+    
     padding: 4px 8px 4px 8px;
     border-radius: 2px;
     margin: 4px;
@@ -33,7 +35,6 @@ ul >li {
 ul >li:hover {
     color: rgb(70 142, 236);
     background-color: #ffff;
-    width: 62px;
     padding: 4px 8px 4px 8px;
     border-radius: 2px;
     margin: 4px;

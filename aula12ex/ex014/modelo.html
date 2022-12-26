@@ -7,21 +7,22 @@
     <link rel="stylesheet" href="style.css">
     <title>Modelo exercício</title>
 </head>
-<body>
+<body onload="carregar()">
     <header>
-        <h1> Verificador </h1>
-        
+        <h1> Hora do Dia </h1>        
     </header>
 
     <section>
-        <div>
-            testando..
+        <div id="msg">
+            aqui vai aparecer a menssagem
         </div>
-        <div>
-        <ul>
-            <li>1500m</li>
-            <li>800m</li>
-            <li>400m</li>
+        <div id="foto">
+            <img  id="imagem" src="manha.png" alt="foto do dia">
+
+         <ul>
+            <li>5 a 11:59 = manhã</li>
+            <li>12 a 17:59 = tarde</li>
+            <li>18 a 4:59 = noite</li>
         </ul>
         </div>
 
