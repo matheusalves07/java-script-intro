@@ -43,6 +43,7 @@ var res = document.querySelector('div#res')
             //idoso
             img.setAttribute('src,','idoso-mulher.png')
         }
+        
       } 
       res.style.textAlign = 'center'
       res.innerHTML = `Detectamos ${genero} com ${idade} anos`
