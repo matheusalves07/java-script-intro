@@ -6,9 +6,9 @@ var res = document.querySelector('div#res')
     if(fano.value.lengh == 0 || Number(fano.value) > ano){
     window.alert('Verifique os dados e tente   novamente')
     } else {
-      var fsex = document.getElementsByName('radsex')
-      var idade = ano - Number(fano.value)
-      var genero = ""
+      var fsex = document.getElementsByName('radsex');
+      var idade = ano - Number(fano.value);
+      var genero = "";
       var img = document.createElement('img')
       img.setAttribute('id','foto')
       if (fsex [0].checked) {
