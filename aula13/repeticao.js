@@ -1,11 +1,12 @@
-var c = 10
+var c =1;
+var nome = ['Matheus', 'Renata', '','Yasmin']
 
 do {
-    console.log(`Passo ${c}passo`)
+    console.log(`Ola ${nome[0]} você deu ${c}passos seguidos `)
     c++
 
 
-} while ( c <=6)
+} while ( c  <= 6)
 
 
 //do =
