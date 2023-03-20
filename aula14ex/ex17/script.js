@@ -8,7 +8,6 @@ function tabuada(){
         let c = 1
         tab.innerHTML = ''
         
-        
         while(c <= 20){
             let item = document.createElement('option')
             item.text =`${n} x ${c} = ${n* c}`
