@@ -5,6 +5,7 @@ function tabuada(){
         window.alert('Por favor digite um número')
     }else {
         let n = Number(num.value)
+        
         let c = 1
         tab.innerHTML = ''
         while(c <= 20){
