@@ -1,7 +1,10 @@
 
-var num1 = 1 ;
-var num2 = 2;
-var soma = 1 +2
-
-
-console.log(soma)
+function parimpar(n){
+    if(n%2==0){
+        return`par `
+    }else{
+        return `Impar`
+    }
+}
+let res = parimpar(2)
+console.log(res)
