@@ -6,7 +6,6 @@ function fatoral (n){
         fat *= c
     }
     return fat
-    
 }
 
 console.log(fatoral(5))
