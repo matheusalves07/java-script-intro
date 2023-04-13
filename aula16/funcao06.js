@@ -110,6 +110,7 @@ $(document).ready(function () {
       }
     });
     // Collapse Panels
+    
     (function ($, window, document) {
       var panelSelector = '[data-perform="panel-collapse"]';
       $(panelSelector).each(function () {
