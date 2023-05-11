@@ -160,6 +160,8 @@ $(document).ready(function () {
               var el = $(this);
               return el.is('[class*="col-"]') && el.children("*").length === 0;
             })
+
+            
             .remove();
         }
       });
