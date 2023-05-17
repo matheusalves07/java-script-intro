@@ -846,7 +846,7 @@ function gt3_flickr_widget() {
 	}
 }
 
-// Post Likes
+// Post Likes like
 jQuery(document).on("click", ".post_likes_add", function (event) {
 	var post_likes_this = jQuery(this);
 	if (!jQuery.cookie(post_likes_this.attr('data-modify') + post_likes_this.attr('data-postid'))) {
