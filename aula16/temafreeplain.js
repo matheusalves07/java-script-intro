@@ -945,7 +945,7 @@ function init_slick_post_gallery() {
 	})
 }
 
-// Video
+// Video  
 function gt3_video_play_button() {
 	jQuery('.blog_post_media.has_post_thumb').each(function () {
 		var iframe = jQuery(this).find('.gt3_video__play_iframe iframe');
