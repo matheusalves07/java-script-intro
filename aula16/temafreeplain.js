@@ -915,7 +915,7 @@ function gt3_wpcf7_label() {
 	}
 }
 
-// Post Gallery 
+// Post Gallery   
 function init_slick_post_gallery() {
 	var all_wrappers = jQuery('.blog_post_media .slider-wrapper');
 	if (!all_wrappers.length) {
