@@ -820,7 +820,7 @@ function gt3_burger_sidebar() {
 }
 
 jQuery(window).on('load', function () {
-	jQuery('.gt3_circle-overlay').addClass('gt3_circle-load_done'); // GT3_Preloader
+	jQuery('.gt3_circle-overlay').addClass('gt3_circle-load_done'); // GT3_Preloader 
 	jQuery('.gt3_linear-loading').fadeOut();
 	jQuery('.gt3_theme_prl-loading').fadeOut();
 
