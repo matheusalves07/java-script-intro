@@ -342,19 +342,19 @@ function gt3_includes_js() {
 					this_btn.find('.gt3_btn_icon').css({'color': '#ffffff'});
 				}
 			}).mouseleave(function () {
-				// Button Default Bg  
+				// Button Default Bg    
 				if (typeof btn_default_bg !== 'undefined') {
 					this_btn.css({'background-color': btn_default_bg});
 				} else {
 					this_btn.css({'background-color': theme_color});
 				}
-				// Button Default Text Color
+				// Button Default Text Color  
 				if (typeof btn_default_color !== 'undefined') {
 					this_btn.css({'color': btn_default_color});
 				} else {
 					this_btn.css({'color': '#ffffff'});
 				}
-				// Button Default Border Color  
+				// Button Default Border Color   
 				if (typeof btn_default_border_color !== 'undefined') {
 					this_btn.css({'border-color': btn_default_border_color});
 				} else {
