@@ -714,7 +714,7 @@ function gt3_column_menu_position(element, menu, document_width) {
 	menu.css({'left': offset, 'width': document_width});
 }
 
-// mobile menu  ( formato celular)    
+// mobile menu  ( formato celular )    
 function gt3_mobile_menu() {
 	var windowW = jQuery(window);
 	var loaded = false;
