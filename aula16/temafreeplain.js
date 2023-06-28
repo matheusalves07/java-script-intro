@@ -575,7 +575,7 @@ function gt3_custom_color() {
 				element.css({'border-color': border_hover_color});
 			}
 		}).mouseleave(function () {
-			// Button Default Text Color
+			// Button Default Text Color 
 			if (typeof color !== 'undefined') {
 				element.css({'color': color});
 			} else {
