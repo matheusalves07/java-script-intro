@@ -564,7 +564,7 @@ function gt3_custom_color() {
 
 		//change colors on mouseenter / mouseleave
 		element.mouseenter(function () {
-			// Button Hover Text Color
+			// Button Hover Text Color 
 			if (typeof hover_color !== 'undefined') {
 				element.css({'color': hover_color});
 			}
