@@ -544,7 +544,7 @@ function gt3_custom_color() {
 		var bg_hover_color = element.attr('data-hover-bg-color')
 		var border_hover_color = element.attr('data-hover-border-color')
 
-		//set default colors
+		//set default colors 
 		if (typeof color !== 'undefined') {
 			element.css({'color': color});
 		} else {
