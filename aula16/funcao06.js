@@ -4,7 +4,7 @@ $(document).ready(function () {
       $("#side-menu");
     });
     // Theme settings
-    //Open-Close-right sidebar
+    //Open-Close-right sidebar 
     $(".right-side-toggle").click(function () {
       $(".right-sidebar").slideDown(50);
       $(".right-sidebar").toggleClass("shw-rside");
