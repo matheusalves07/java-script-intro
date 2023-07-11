@@ -562,7 +562,7 @@ function gt3_custom_color() {
 			element.css({'border-color': ''});
 		}
 
-		//change colors on mouseenter / mouseleave  
+		//change colors on mouseenter / mouseleave   
 		element.mouseenter(function () {
 			// Button Hover Text Color 
 			if (typeof hover_color !== 'undefined') {
