@@ -1,7 +1,7 @@
 
 function parimpar(n){
     if(n%2==0){
-        return`par `
+        return`par`
     }else{
         return `Impar`
     }
